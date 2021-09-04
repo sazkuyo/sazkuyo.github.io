@@ -1,6 +1,15 @@
 <html>
 <head>
   <title>test</title>
+  <script>
+    function changeBG(){
+				n1 = parseInt(Math.random()*255);
+				n2 = parseInt(Math.random()*200);
+				n3 = parseInt(Math.random()*100);
+				document.bgColor = "("+n1+","+n2+","+n3+")";
+			}
+			setInterval('changeBG()',1000);
+  </script>
 </head>
 <body>
   It is just a test page!!
